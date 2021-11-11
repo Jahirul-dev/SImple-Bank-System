@@ -1,0 +1,44 @@
+body{
+    padding: 100px;
+}
+.form-control{
+    margin: 5px;
+}
+.btn-success{
+    margin: 5px;
+}
+.submit-area{
+    margin-top: 80px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+#another-area{
+    display: none;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.fields1{
+    background-color: rgb(69, 69, 238);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    color: white;
+}
+.fields2{
+    background-color: gold;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    color: white;
+
+}
+.fields3{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px;
+    color: white;
+
+}

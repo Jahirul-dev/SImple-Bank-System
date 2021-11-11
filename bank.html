@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bankstyle.css">
+    <title>Siple bank system</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="login-area">
+        <h1 class="text-center">Welcome to simple bank system</h1>
+        <div class="submit-area">
+            <input type="text" class="form-control">
+            <input type="password" class="form-control" name="" id="">
+            <button id="btn" class="btn btn-success">Enter</button>
+        </div>    
+    </div>
+    <div id="another-area">
+        <div style="display: flex;">
+        <div>
+            <div class="fields1">
+                <h1>Deposite</h1>
+                <h1>$<span id="add">00</span></h1>
+            </div>
+        </div>
+        <div>
+            <div class="fields2">
+                <h1>Withdraw</h1>
+                <h1>$ <span id="add2">00</span> </h1>
+            </div>
+        </div>
+        <div>
+            <div class="fields3">
+                <h1>Balance</h1>
+                <h1>$ <span id="add1">1240</span></h1>
+            </div>
+        </div>
+    </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <h4>Diposit</h4>
+                    <input id="dipositAmmount" type="text" placeholder="$ ammount you want to deposit">
+                    <button id="addDeposit" class="btn btn-success">Diposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submit-area"> 
+                    <h4>Withdraw</h4>
+                    <input id="withdrawAmmount" type="text" placeholder="$ ammount you want to Withdraw">
+                    <button id="subWithdraw" class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bank.js"></script>
+
+</body>
+</html>
